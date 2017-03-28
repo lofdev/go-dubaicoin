@@ -1,16 +1,5 @@
 ## Dubaicoin Go
 
-Dubaicoin Go Client, by Christopher Franko (forked from Jeffrey Wilcke (and some other people)'s Dubaicoin Go client).
-
-          | Linux   | OSX | ARM | Windows | Tests
-----------|---------|-----|-----|---------|------
-develop   | [![Build+Status](https://build.ethdev.com/buildstatusimage?builder=Linux%20Go%20develop%20branch)](https://build.ethdev.com/builders/Linux%20Go%20develop%20branch/builds/-1) | [![Build+Status](https://build.ethdev.com/buildstatusimage?builder=Linux%20Go%20develop%20branch)](https://build.ethdev.com/builders/OSX%20Go%20develop%20branch/builds/-1) | [![Build+Status](https://build.ethdev.com/buildstatusimage?builder=ARM%20Go%20develop%20branch)](https://build.ethdev.com/builders/ARM%20Go%20develop%20branch/builds/-1) | [![Build+Status](https://build.ethdev.com/buildstatusimage?builder=Windows%20Go%20develop%20branch)](https://build.ethdev.com/builders/Windows%20Go%20develop%20branch/builds/-1) | [![Buildr+Status](https://travis-ci.org/dbix-project/go-dubaicoin.svg?branch=develop)](https://travis-ci.org/dubaicoin/go-dubaicoin) [![Coverage Status](https://coveralls.io/repos/dbix-project/go-dubaicoin/badge.svg?branch=develop)](https://coveralls.io/r/dubaicoin/go-dubaicoin?branch=develop)
-master    | [![Build+Status](https://build.ethdev.com/buildstatusimage?builder=Linux%20Go%20master%20branch)](https://build.ethdev.com/builders/Linux%20Go%20master%20branch/builds/-1) | [![Build+Status](https://build.ethdev.com/buildstatusimage?builder=OSX%20Go%20master%20branch)](https://build.ethdev.com/builders/OSX%20Go%20master%20branch/builds/-1) | [![Build+Status](https://build.ethdev.com/buildstatusimage?builder=ARM%20Go%20master%20branch)](https://build.ethdev.com/builders/ARM%20Go%20master%20branch/builds/-1) | [![Build+Status](https://build.ethdev.com/buildstatusimage?builder=Windows%20Go%20master%20branch)](https://build.ethdev.com/builders/Windows%20Go%20master%20branch/builds/-1) | [![Buildr+Status](https://travis-ci.org/dbix-project/go-dubaicoin.svg?branch=master)](https://travis-ci.org/dbix-project/go-dubaicoin) [![Coverage Status](https://coveralls.io/repos/dbix-project/go-dubaicoin/badge.svg?branch=master)](https://coveralls.io/r/dbix-project/go-dubaicoin?branch=master)
-
-[![Bugs](https://badge.waffle.io/dbix-project/go-dubaicoin.png?label=bug&title=Bugs)](https://waffle.io/dubaicoin/go-dubaicoin)
-[![Stories in Ready](https://badge.waffle.io/dbix-project/go-dubaicoin.png?label=ready&title=Ready)](https://waffle.io/dubaicoin/go-dubaicoin)
-[![Stories in Progress](https://badge.waffle.io/dbix-project/go-dubaicoin.svg?label=in%20progress&title=In Progress)](http://waffle.io/dubaicoin/go-dubaicoin)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dubaicoin/go-dubaicoin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 ## Automated development builds
 
 The following builds are build automatically by our build servers after each push to the [develop](https://github.com/dbix-project/go-dubaicoin/tree/develop) branch.
@@ -53,7 +42,7 @@ Go Dubaicoin comes with several wrappers/executables found in
 * `disasm` disassembles EVM code: `echo "6001" | disasm`
 * `rlpdump` prints RLP structures
 
-## Running geth
+## Running gdbix
 
 Going through all the possible command line flags is out of scope here (please consult our
 [CLI Wiki page](https://github.com/dbix-project/go-dubaicoin/wiki/Command-Line-Options)), but we've
@@ -84,7 +73,7 @@ This command will:
    This too is optional and if you leave it out you can always attach to an already running  instance
    with `geth --attach`.
 
-### Full node on the Ethereum test network
+### Full node on the Dubaicoin test network
 
 Transitioning towards developers, if you'd like to play around with creating Ethereum contracts, you
 almost certainly would like to do that without any real money involved until you get the hang of the
