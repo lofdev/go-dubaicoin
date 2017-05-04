@@ -1,27 +1,9 @@
 ## Dubaicoin Go
 
-Dubaicoin Go Client, by Christopher Franko (forked from Jeffrey Wilcke (and some other people)'s Dubaicoin Go client).
-
-          | Linux   | OSX | ARM | Windows | Tests
-----------|---------|-----|-----|---------|------
-develop   | [![Build+Status](https://build.ethdev.com/buildstatusimage?builder=Linux%20Go%20develop%20branch)](https://build.ethdev.com/builders/Linux%20Go%20develop%20branch/builds/-1) | [![Build+Status](https://build.ethdev.com/buildstatusimage?builder=Linux%20Go%20develop%20branch)](https://build.ethdev.com/builders/OSX%20Go%20develop%20branch/builds/-1) | [![Build+Status](https://build.ethdev.com/buildstatusimage?builder=ARM%20Go%20develop%20branch)](https://build.ethdev.com/builders/ARM%20Go%20develop%20branch/builds/-1) | [![Build+Status](https://build.ethdev.com/buildstatusimage?builder=Windows%20Go%20develop%20branch)](https://build.ethdev.com/builders/Windows%20Go%20develop%20branch/builds/-1) | [![Buildr+Status](https://travis-ci.org/dbix-project/go-dubaicoin.svg?branch=develop)](https://travis-ci.org/dubaicoin/go-dubaicoin) [![Coverage Status](https://coveralls.io/repos/dbix-project/go-dubaicoin/badge.svg?branch=develop)](https://coveralls.io/r/dubaicoin/go-dubaicoin?branch=develop)
-master    | [![Build+Status](https://build.ethdev.com/buildstatusimage?builder=Linux%20Go%20master%20branch)](https://build.ethdev.com/builders/Linux%20Go%20master%20branch/builds/-1) | [![Build+Status](https://build.ethdev.com/buildstatusimage?builder=OSX%20Go%20master%20branch)](https://build.ethdev.com/builders/OSX%20Go%20master%20branch/builds/-1) | [![Build+Status](https://build.ethdev.com/buildstatusimage?builder=ARM%20Go%20master%20branch)](https://build.ethdev.com/builders/ARM%20Go%20master%20branch/builds/-1) | [![Build+Status](https://build.ethdev.com/buildstatusimage?builder=Windows%20Go%20master%20branch)](https://build.ethdev.com/builders/Windows%20Go%20master%20branch/builds/-1) | [![Buildr+Status](https://travis-ci.org/dbix-project/go-dubaicoin.svg?branch=master)](https://travis-ci.org/dbix-project/go-dubaicoin) [![Coverage Status](https://coveralls.io/repos/dbix-project/go-dubaicoin/badge.svg?branch=master)](https://coveralls.io/r/dbix-project/go-dubaicoin?branch=master)
-
-[![Bugs](https://badge.waffle.io/dbix-project/go-dubaicoin.png?label=bug&title=Bugs)](https://waffle.io/dubaicoin/go-dubaicoin)
-[![Stories in Ready](https://badge.waffle.io/dbix-project/go-dubaicoin.png?label=ready&title=Ready)](https://waffle.io/dubaicoin/go-dubaicoin)
-[![Stories in Progress](https://badge.waffle.io/dbix-project/go-dubaicoin.svg?label=in%20progress&title=In Progress)](http://waffle.io/dubaicoin/go-dubaicoin)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dubaicoin/go-dubaicoin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-## Automated development builds
-
-The following builds are build automatically by our build servers after each push to the [develop](https://github.com/dbix-project/go-dubaicoin/tree/develop) branch.
-
-* [Docker](https://registry.hub.docker.com/u/dubaicoin/go-dubaicoin/)
-* [OS X](http://build.ethdev.com/builds/OSX%20Go%20develop%20branch/Mist-OSX-latest.dmg)
-* Ubuntu
-  [trusty](https://build.ethdev.com/builds/Linux%20Go%20develop%20deb%20i386-trusty/latest/) |
-  [utopic](https://build.ethdev.com/builds/Linux%20Go%20develop%20deb%20i386-utopic/latest/)
-* [Windows 64-bit](https://build.ethdev.com/builds/Windows%20Go%20develop%20branch/Gdbix-Win64-latest.zip)
-* [ARM](https://build.ethdev.com/builds/ARM%20Go%20develop%20branch/gdbix-ARM-latest.tar.bz2)
+P2PPort: 57955
+RPCPort: 7565
+WSPort: 7557
+NetworkID: 7995
 
 ## Building the source
 
@@ -53,7 +35,7 @@ Go Dubaicoin comes with several wrappers/executables found in
 * `disasm` disassembles EVM code: `echo "6001" | disasm`
 * `rlpdump` prints RLP structures
 
-## Running geth
+## Running gdbix
 
 Going through all the possible command line flags is out of scope here (please consult our
 [CLI Wiki page](https://github.com/dbix-project/go-dubaicoin/wiki/Command-Line-Options)), but we've
@@ -68,12 +50,12 @@ the user doesn't care about years-old historical data, so we can fast-sync quick
 state of the network. To do so:
 
 ```
-$ geth --fast --cache=512 console
+$ gdbix --fast --cache=512 console
 ```
 
 This command will:
 
- * Start geth in fast sync mode (`--fast`), causing it to download more data in exchange for avoiding
+ * Start gdbix in fast sync mode (`--fast`), causing it to download more data in exchange for avoiding
    processing the entire history of the Ethereum network, which is very CPU intensive.
  * Bump the memory allowance of the database to 512MB (`--cache=512`), which can help significantly in
    sync times especially for HDD users. This flag is optional and you can set it as high or as low as
@@ -82,7 +64,7 @@ This command will:
    (via the trailing `console` subcommand) through which you can invoke all official [`web3` methods](https://github.com/ethereum/wiki/wiki/JavaScript-API)
    as well as 's own [management APIs](https://github.com/dbix-project/go-dubaicoin/wiki/Management-APIs).
    This too is optional and if you leave it out you can always attach to an already running  instance
-   with `geth --attach`.
+   with `gdbix --attach`.
 
 ### Full node on the Ethereum test network
 
@@ -92,7 +74,7 @@ entire system. In other words, instead of attaching to the main network, you wan
 network with your node, which is fully equivalent to the main network, but with play-Ether only.
 
 ```
-$ geth --testnet --fast --cache=512 console
+$ gdbix --testnet --fast --cache=512 console
 ```
 
 The `--fast`, `--cache` flags and `console` subcommand have the exact same meaning as above and they
@@ -128,12 +110,12 @@ HTTP based JSON-RPC API options:
 
   * `--rpc` Enable the HTTP-RPC server
   * `--rpcaddr` HTTP-RPC server listening interface (default: "localhost")
-  * `--rpcport` HTTP-RPC server listening port (default: 8545)
+  * `--rpcport` HTTP-RPC server listening port (default: 7565)
   * `--rpcapi` API's offered over the HTTP-RPC interface (default: "eth,net,web3")
   * `--rpccorsdomain` Comma separated list of domains from which to accept cross origin requests (browser enforced)
   * `--ws` Enable the WS-RPC server
   * `--wsaddr` WS-RPC server listening interface (default: "localhost")
-  * `--wsport` WS-RPC server listening port (default: 8546)
+  * `--wsport` WS-RPC server listening port (default: 7557)
   * `--wsapi` API's offered over the WS-RPC interface (default: "eth,net,web3")
   * `--wsorigins` Origins from which to accept websockets requests
   * `--ipcdisable` Disable the IPC-RPC server
@@ -189,7 +171,7 @@ With the genesis state defined in the above JSON file, you'll need to initialize
 with it prior to starting it up to ensure all blockchain parameters are correctly set:
 
 ```
-$ geth init path/to/genesis.json
+$ gdbix init path/to/genesis.json
 ```
 
 #### Creating the rendezvous point
@@ -218,7 +200,7 @@ via the `--bootnodes` flag. It will probably also be desirable to keep the data 
 private network separated, so do also specify a custom `--datadir` flag.
 
 ```
-$ geth --datadir=path/to/custom/data/folder --bootnodes=<bootnode-enode-url-from-above>
+$ gdbix --datadir=path/to/custom/data/folder --bootnodes=<bootnode-enode-url-from-above>
 ```
 
 *Note: Since your network will be completely cut off from the main and test networks, you'll also
@@ -237,7 +219,7 @@ resources (consider running on a single thread, no need for multiple ones either
 instance for mining, run it with all your usual flags, extended by:
 
 ```
-$ geth <usual-flags> --mine --minerthreads=1 --etherbase=0x0000000000000000000000000000000000000000
+$ gdbix <usual-flags> --mine --minerthreads=1 --etherbase=0x0000000000000000000000000000000000000000
 ```
 
 Which will start mining bocks and transactions on a single CPU thread, crediting all proceedings to
