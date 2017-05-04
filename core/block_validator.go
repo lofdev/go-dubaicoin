@@ -286,8 +286,9 @@ func calcDifficultyHomestead(time, parentTime uint64, parentNumber, parentDiff *
 		x.Set(bigMinus99)
 	}
 
-	// (parent_diff + parent_diff // 2048 * max(1 - (block_timestamp - parent_timestamp) // 10, -99))
-	y.Div(parentDiff, params.DifficultyBoundDivisor)
+	// (parent_diff + parent_diff // 768 * max(1 - (block_timestamp - parent_timestamp) // 10, -99))
+	//y.Div(parentDiff, params.DifficultyBoundDivisor)
+	y.Div(parentDiff, params.DifficultyBoundDivisorNew)
 	x.Mul(y, x)
 	x.Add(parentDiff, x)
 
@@ -312,8 +313,17 @@ func calcDifficultyHomestead(time, parentTime uint64, parentNumber, parentDiff *
 }
 
 func calcDifficultyFrontier(time, parentTime uint64, parentNumber, parentDiff *big.Int) *big.Int {
+	//diff := new(big.Int)
+	//adjust := new(big.Int).Div(parentDiff, params.DifficultyBoundDivisor)
+	
 	diff := new(big.Int)
-	adjust := new(big.Int).Div(parentDiff, params.DifficultyBoundDivisor)
+	adjust := new(big.Int)
+	if parentNumber.Cmp(params.DiffForkBlock) > 39000 {
+		adjust = new(big.Int).Div(parentDiff, params.DifficultyBoundDivisorNew)
+	} else {
+		adjust = new(big.Int).Div(parentDiff, params.DifficultyBoundDivisor)
+	}
+	
 	bigTime := new(big.Int)
 	bigParentTime := new(big.Int)
 

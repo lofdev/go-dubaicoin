@@ -30,7 +30,7 @@ RUN cd go-dubaicoin && make gdbix
 
 RUN cp build/bin/gdbix /usr/bin/gdbix
 
-EXPOSE 7656
+EXPOSE 7565
 EXPOSE 57955
 
 ENTRYPOINT ["/usr/bin/gdbix"]

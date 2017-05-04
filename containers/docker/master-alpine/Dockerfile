@@ -8,7 +8,7 @@ RUN \
   apk del go git make gcc musl-dev                  && \
   rm -rf /go-dubaicoin && rm -rf /var/cache/apk/*
 
-EXPOSE 7656
+EXPOSE 7565
 EXPOSE 57955
 
 ENTRYPOINT ["/gdbix"]

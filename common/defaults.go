@@ -24,9 +24,9 @@ import (
 const (
 	DefaultIPCSocket = "gdbix.ipc"  // Default (relative) name of the IPC RPC socket
 	DefaultHTTPHost  = "localhost" // Default host interface for the HTTP RPC server
-	DefaultHTTPPort  = 7656       // Default TCP port for the HTTP RPC server
+	DefaultHTTPPort  = 7565       // Default TCP port for the HTTP RPC server
 	DefaultWSHost    = "localhost" // Default host interface for the websocket RPC server
-	DefaultWSPort    = 7657        // Default TCP port for the websocket RPC server
+	DefaultWSPort    = 7557        // Default TCP port for the websocket RPC server
 )
 
 // DefaultDataDir is the default data directory to use for the databases and other
