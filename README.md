@@ -1,9 +1,9 @@
 ## Dubaicoin Go
 
-P2PPort: 57955
-RPCPort: 7565
-WSPort: 7557
-NetworkID: 7995
+* P2PPort: 57955
+* RPCPort: 7565
+* WSPort: 7557
+* NetworkID: 7995
 
 ## Building the source
 
