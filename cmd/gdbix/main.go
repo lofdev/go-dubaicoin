@@ -51,7 +51,7 @@ const (
 	versionMajor     = 1        // Major version component of the current release
 	versionMinor     = 4        // Minor version component of the current release
 	versionPatch     = 9       // Patch version component of the current release
-	versionMeta      = "update-1" // Version metadata to append to the version string
+	versionMeta      = "update-2" // Version metadata to append to the version string
 	versionOracle = "0x926d69cc3bbf81d52cba6886d788df007a15a3cd" // Dubaicoin address of the Gdbix release oracle
 )
 

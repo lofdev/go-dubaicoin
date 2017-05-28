@@ -33,6 +33,7 @@ import (
 var (
 	ExpDiffPeriod = big.NewInt(100000)
 	big10         = big.NewInt(10)
+	big90         = big.NewInt(90)
 	bigMinus99    = big.NewInt(-99)
 )
 
@@ -278,7 +279,7 @@ func calcDifficultyHomestead(time, parentTime uint64, parentNumber, parentDiff *
 
 	// 1 - (block_timestamp -parent_timestamp) // 10
 	x.Sub(bigTime, bigParentTime)
-	x.Div(x, big10)
+	x.Div(x, big90)
 	x.Sub(common.Big1, x)
 
 	// max(1 - (block_timestamp - parent_timestamp) // 10, -99)))
@@ -297,7 +298,7 @@ func calcDifficultyHomestead(time, parentTime uint64, parentNumber, parentDiff *
 		x.Set(params.MinimumDifficulty)
 	}
 
-	// for the exponential factor
+	/*// for the exponential factor //rmv
 	periodCount := new(big.Int).Add(parentNumber, common.Big1)
 	periodCount.Div(periodCount, ExpDiffPeriod)
 
@@ -307,7 +308,7 @@ func calcDifficultyHomestead(time, parentTime uint64, parentNumber, parentDiff *
 		y.Sub(periodCount, common.Big2)
 		y.Exp(common.Big2, y, nil)
 		x.Add(x, y)
-	}
+	}*/ //rmv
 
 	return x
 }
