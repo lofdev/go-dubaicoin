@@ -42,7 +42,7 @@ var (
 	nPowAveragingWindow90 = big.NewInt(90)
 
 	// Flux For Dbix
-	FluxDbixDiffBlock       = big.NewInt(67000) //The Block to Change the Diff to Flux
+	FluxDbixDiffBlock     = big.NewInt(63900) //The Block to Change the Diff to Flux
 	nPowMaxAdjustDownFlux = big.NewInt(5) // 0.5% adjustment down
 	nPowMaxAdjustUpFlux   = big.NewInt(3) // 0.3% adjustment up
 	nPowDampFlux          = big.NewInt(1) // 0.1%
@@ -367,7 +367,7 @@ func CalcDifficulty(config *params.ChainConfig, time, parentTime uint64, parentN
 	if config.IsHomestead(new(big.Int).Add(parentNumber, common.Big1)) {
 		return calcDifficultyHomestead(time, parentTime, parentNumber, parentDiff)	
 	} 
-	if parentNumber.Cmp(FluxDbixDiffBlock) < 67000 {
+	if parentNumber.Cmp(FluxDbixDiffBlock) < 63900 {
 		return calcDifficultyFrontier(time, parentTime, parentNumber, parentDiff)
 	} else {
 		return FluxDifficulty(time, parentTime, parentNumber, parentDiff, bc)
@@ -511,7 +511,7 @@ func FluxDifficulty(time, parentTime uint64, parentNumber, parentDiff *big.Int, 
 }
 
 func CalcDifficultyHeaderChain(config *params.ChainConfig, time, parentTime uint64, parentNumber, parentDiff *big.Int, hc *HeaderChain) *big.Int {
-	if parentNumber.Cmp(FluxDbixDiffBlock) > 67000 {
+	if parentNumber.Cmp(FluxDbixDiffBlock) > 63900 {
 		return FluxDifficultyHeaderChain(time, parentTime, parentNumber, parentDiff, hc)
 	}
 	return nil

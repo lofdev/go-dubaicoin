@@ -1,15 +1,6 @@
 ## Dubaicoin Go
 
-Official golang implementation of the Dubaicoin-Dbix protocol.
-
-* P2PPort: 57955
-* RPCPort: 7565
-* WSPort: 7557
-* NetworkID: 7995
-
-## Organization
-
-ARABIANCHAIN.ORG
+Official golang implementation of the Dubaicoin protocol.
 
 ## Building the source
 
@@ -33,7 +24,7 @@ The go-ethereum project comes with several wrappers/executables found in the `cm
 
 | Command    | Description |
 |:----------:|-------------|
-| **`gdbix`** | Our main Ethereum CLI client. It is the entry point into the Dubaicoin network (main-, test- or private net), capable of running as a full node (default) archive node (retaining all historical state) or a light node (retrieving data live). It can be used by other processes as a gateway into the Dubaicoin network via JSON RPC endpoints exposed on top of HTTP, WebSocket and/or IPC transports. `gdbix --help` and the [CLI Wiki page](https://github.com/ethereum/go-ethereum/wiki/Command-Line-Options) for command line options |
+| **`gdbix`** | Our main Ethereum CLI client. It is the entry point into the Dubaicoin network (main-, test- or private net), capable of running as a full node (default) archive node (retaining all historical state) or a light node (retrieving data live). It can be used by other processes as a gateway into the Dubaicoin network via JSON RPC endpoints exposed on top of HTTP, WebSocket and/or IPC transports. `gdbix --help` and the [CLI Wiki page](https://github.com/dubaicoin-dbix/go-dubaicoin/wiki/Command-Line-Options) for command line options |
 | `abigen` | Source code generator to convert Ethereum contract definitions into easy to use, compile-time type-safe Go packages. It operates on plain [Ethereum contract ABIs](https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI) with expanded functionality if the contract bytecode is also available. However it also accepts Solidity source files, making development much more streamlined. Please see our [Native DApps](https://github.com/ethereum/go-ethereum/wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts) wiki page for details. |
 | `bootnode` | Stripped down version of our Ethereum client implementation that only takes part in the network node discovery protocol, but does not run any of the higher level application protocols. It can be used as a lightweight bootstrap node to aid in finding peers in private networks. |
 | `disasm` | Bytecode disassembler to convert EVM (Ethereum Virtual Machine) bytecode into more user friendly assembly-like opcodes (e.g. `echo "6001" | disasm`). For details on the individual opcodes, please see pages 22-30 of the [Ethereum Yellow Paper](http://gavwood.com/paper.pdf). |
@@ -270,10 +261,10 @@ for more details on configuring your environment, managing project dependencies 
 
 ## License
 
-The go-ethereum / The go-dubaicoin library (i.e. all code outside of the `cmd` directory) is licensed under the
+The go-ethereum library (i.e. all code outside of the `cmd` directory) is licensed under the
 [GNU Lesser General Public License v3.0](https://www.gnu.org/licenses/lgpl-3.0.en.html), also
 included in our repository in the `COPYING.LESSER` file.
 
-The go-ethereum / The go-dubaicoin binaries (i.e. all code inside of the `cmd` directory) is licensed under the
+The go-ethereum binaries (i.e. all code inside of the `cmd` directory) is licensed under the
 [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html), also included
 in our repository in the `COPYING` file.
