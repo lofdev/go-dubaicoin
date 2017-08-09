@@ -2,6 +2,11 @@
 
 Official golang implementation of the Dubaicoin protocol.
 
+* P2PPort: 57955
+* RPCPort: 7565
+* WSPort: 7557
+* NetworkID: 7995
+
 ## Building the source
 
 For prerequisites and detailed build instructions please read the
@@ -260,6 +265,8 @@ Please see the [Developers' Guide](https://github.com/ethereum/go-ethereum/wiki/
 for more details on configuring your environment, managing project dependencies and testing procedures.
 
 ## License
+
+The go-dubaicoin code is based on go-ethereum.
 
 The go-ethereum library (i.e. all code outside of the `cmd` directory) is licensed under the
 [GNU Lesser General Public License v3.0](https://www.gnu.org/licenses/lgpl-3.0.en.html), also
