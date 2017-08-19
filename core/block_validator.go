@@ -367,7 +367,7 @@ func CalcDifficulty(config *params.ChainConfig, time, parentTime uint64, parentN
 	if config.IsHomestead(new(big.Int).Add(parentNumber, common.Big1)) {
 		return calcDifficultyHomestead(time, parentTime, parentNumber, parentDiff)	
 	} 
-	if parentNumber.Cmp(FluxDbixDiffBlock) < 63900 {
+	if parentNumber.Cmp(FluxDbixDiffBlock) < 0 {
 		return calcDifficultyFrontier(time, parentTime, parentNumber, parentDiff)
 	} else {
 		return FluxDifficulty(time, parentTime, parentNumber, parentDiff, bc)
@@ -511,7 +511,7 @@ func FluxDifficulty(time, parentTime uint64, parentNumber, parentDiff *big.Int, 
 }
 
 func CalcDifficultyHeaderChain(config *params.ChainConfig, time, parentTime uint64, parentNumber, parentDiff *big.Int, hc *HeaderChain) *big.Int {
-	if parentNumber.Cmp(FluxDbixDiffBlock) > 63900 {
+	if parentNumber.Cmp(FluxDbixDiffBlock) > 0 {
 		return FluxDifficultyHeaderChain(time, parentTime, parentNumber, parentDiff, hc)
 	}
 	return nil
