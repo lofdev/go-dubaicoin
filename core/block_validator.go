@@ -43,6 +43,7 @@ var (
 
 	// Flux For Dbix
 	FluxDbixDiffBlock     = big.NewInt(63900) //The Block to Change the Diff to Flux
+	FluxDbixDiffBlock2    = big.NewInt(64000) //The Block to Correct the Flux Difficulty
 	nPowMaxAdjustDownFlux = big.NewInt(5) // 0.5% adjustment down
 	nPowMaxAdjustUpFlux   = big.NewInt(3) // 0.3% adjustment up
 	nPowDampFlux          = big.NewInt(1) // 0.1%
@@ -372,6 +373,10 @@ func CalcDifficulty(config *params.ChainConfig, time, parentTime uint64, parentN
 	} else {
 		return FluxDifficulty(time, parentTime, parentNumber, parentDiff, bc)
 	}
+	if parentNumber.Cmp(FluxDbixDiffBlock2) < 0 {
+		return FluxDifficulty(time, parentTime, parentNumber, parentDiff, bc)
+	}
+	return nil
 }
 
 func calcDifficultyHomestead(time, parentTime uint64, parentNumber, parentDiff *big.Int) *big.Int {
@@ -435,6 +440,7 @@ func calcDifficultyFrontier(time, parentTime uint64, parentNumber, parentDiff *b
 	} else {
 		adjust = new(big.Int).Div(parentDiff, params.DifficultyBoundDivisorNew)
 	}
+	
 	bigTime := new(big.Int)
 	bigParentTime := new(big.Int)
 
@@ -512,6 +518,9 @@ func FluxDifficulty(time, parentTime uint64, parentNumber, parentDiff *big.Int, 
 
 func CalcDifficultyHeaderChain(config *params.ChainConfig, time, parentTime uint64, parentNumber, parentDiff *big.Int, hc *HeaderChain) *big.Int {
 	if parentNumber.Cmp(FluxDbixDiffBlock) > 0 {
+		return FluxDifficultyHeaderChain(time, parentTime, parentNumber, parentDiff, hc)
+	}
+	if parentNumber.Cmp(FluxDbixDiffBlock2) < 0 {
 		return FluxDifficultyHeaderChain(time, parentTime, parentNumber, parentDiff, hc)
 	}
 	return nil
