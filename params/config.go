@@ -28,7 +28,7 @@ var MainnetChainConfig = &ChainConfig{
 	ChainId:        MainNetChainID,
 	HomesteadBlock: MainNetHomesteadBlock,
 	DAOForkBlock:   MainNetDAOForkBlock,
-	DAOForkSupport: true,
+	DAOForkSupport: false,
 	EIP150Block:    MainNetHomesteadGasRepriceBlock,
 	EIP150Hash:     MainNetHomesteadGasRepriceHash,
 	EIP155Block:    MainNetSpuriousDragon,
@@ -40,7 +40,7 @@ var TestnetChainConfig = &ChainConfig{
 	ChainId:        big.NewInt(6),
 	HomesteadBlock: big.NewInt(0),
 	DAOForkBlock:   nil,
-	DAOForkSupport: true,
+	DAOForkSupport: false,
 	EIP150Block:    big.NewInt(0),
 	EIP150Hash:     common.HexToHash("0x991a2a023969dac3739cea2ba92df6c40cf494f156fbc76ea17469a81e412da5"),
 	EIP155Block:    big.NewInt(10),
@@ -69,11 +69,9 @@ type ChainConfig struct {
 
 // String implements the Stringer interface.
 func (c *ChainConfig) String() string {
-	return fmt.Sprintf("{ChainID: %v Homestead: %v DAO: %v DAOSupport: %v EIP150: %v EIP155: %v EIP158: %v}",
+	return fmt.Sprintf("{ChainID: %v Homestead: %v EIP150: %v EIP155: %v EIP158: %v}",
 		c.ChainId,
 		c.HomesteadBlock,
-		c.DAOForkBlock,
-		c.DAOForkSupport,
 		c.EIP150Block,
 		c.EIP155Block,
 		c.EIP158Block,

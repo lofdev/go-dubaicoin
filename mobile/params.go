@@ -30,7 +30,7 @@ func MainnetChainConfig() *ChainConfig {
 		ChainID:        params.MainNetChainID.Int64(),
 		HomesteadBlock: params.MainNetHomesteadBlock.Int64(),
 		DAOForkBlock:   params.MainNetDAOForkBlock.Int64(),
-		DAOForkSupport: true,
+		DAOForkSupport: false,
 		EIP150Block:    params.MainNetHomesteadGasRepriceBlock.Int64(),
 		EIP150Hash:     Hash{params.MainNetHomesteadGasRepriceHash},
 		EIP155Block:    params.MainNetSpuriousDragon.Int64(),

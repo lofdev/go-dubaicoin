@@ -75,8 +75,8 @@ var customGenesisTests = []struct {
 			"timestamp"  : "0x00",
 			"config"     : {
 				"homesteadBlock" : 314,
-				"daoForkBlock"   : 141,
-				"daoForkSupport" : true
+				"daoForkBlock"   : nil,
+				"daoForkSupport" : false
 			},
 		}`,
 		query:  "eth.getBlock(0).nonce",

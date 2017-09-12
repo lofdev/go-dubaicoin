@@ -39,7 +39,7 @@ func MakeChainConfig() *params.ChainConfig {
 	return &params.ChainConfig{
 		HomesteadBlock: big.NewInt(0),
 		DAOForkBlock:   nil,
-		DAOForkSupport: true,
+		DAOForkSupport: false,
 	}
 }
 

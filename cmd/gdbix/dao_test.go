@@ -55,7 +55,7 @@ var daoNoForkGenesis = `{
 	"parentHash" : "0x0000000000000000000000000000000000000000000000000000000000000000",
 	"timestamp"  : "0x00",
 	"config"     : {
-		"daoForkBlock"   : 314,
+		"daoForkBlock"   : nil,
 		"daoForkSupport" : false
 	}
 }`
@@ -72,8 +72,8 @@ var daoProForkGenesis = `{
 	"parentHash" : "0x0000000000000000000000000000000000000000000000000000000000000000",
 	"timestamp"  : "0x00",
 	"config"     : {
-		"daoForkBlock"   : 314,
-		"daoForkSupport" : true
+		"daoForkBlock"   : nil,
+		"daoForkSupport" : false
 	}
 }`
 

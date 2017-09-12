@@ -216,7 +216,7 @@ func RunVm(statedb *state.StateDB, env, exec map[string]string) ([]byte, []*type
 	chainConfig := &params.ChainConfig{
 		HomesteadBlock: params.MainNetHomesteadBlock,
 		DAOForkBlock:   params.MainNetDAOForkBlock,
-		DAOForkSupport: true,
+		DAOForkSupport: false,
 	}
 	var (
 		to    = common.HexToAddress(exec["address"])

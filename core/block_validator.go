@@ -364,9 +364,6 @@ func ValidateHeaderHeaderChain(config *params.ChainConfig, pow pow.PoW, header *
 // the difficulty that a new block should have when created at time
 // given the parent block's time and difficulty.
 func CalcDifficulty(config *params.ChainConfig, time, parentTime uint64, parentNumber, parentDiff *big.Int, bc *BlockChain) *big.Int {
-	if config.IsHomestead(new(big.Int).Add(parentNumber, common.Big1)) {
-		return calcDifficultyHomestead(time, parentTime, parentNumber, parentDiff)	
-	} 
 	if parentNumber.Cmp(FluxDbixDiffBlock) < 0 {
 		return calcDifficultyFrontier(time, parentTime, parentNumber, parentDiff)
 	} else {

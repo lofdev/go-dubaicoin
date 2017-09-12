@@ -39,7 +39,7 @@ func TestDAOForkRangeExtradata(t *testing.T) {
 	// Create the concurrent, conflicting two nodes
 	proDb, _ := ethdb.NewMemDatabase()
 	WriteGenesisBlockForTesting(proDb)
-	proConf := &params.ChainConfig{HomesteadBlock: big.NewInt(0), DAOForkBlock: forkBlock, DAOForkSupport: true}
+	proConf := &params.ChainConfig{HomesteadBlock: big.NewInt(0), DAOForkBlock: forkBlock, DAOForkSupport: false}
 	proBc, _ := NewBlockChain(proDb, proConf, new(FakePow), new(event.TypeMux), vm.Config{})
 
 	conDb, _ := ethdb.NewMemDatabase()
