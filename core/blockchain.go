@@ -35,7 +35,6 @@ import (
 	"github.com/lofdev/go-dubaicoin/core/types"
 	"github.com/lofdev/go-dubaicoin/core/vm"
 	"github.com/lofdev/go-dubaicoin/crypto"
-	"github.com/lofdev/go-dubaicoin/dbixdb"
 	"github.com/lofdev/go-dubaicoin/event"
 	"github.com/lofdev/go-dubaicoin/logger"
 	"github.com/lofdev/go-dubaicoin/logger/glog"
@@ -44,7 +43,6 @@ import (
 	"github.com/lofdev/go-dubaicoin/pow"
 	"github.com/lofdev/go-dubaicoin/rlp"
 	"github.com/lofdev/go-dubaicoin/trie"
-	"github.com/hashicorp/golang-lru"
 )
 
 var (
@@ -547,9 +545,13 @@ func (bc *BlockChain) CalcPastMedianTime(number uint64) *big.Int {
 	timestamps = timestamps[:numNodes]
 	sort.Sort(BigIntSlice(timestamps))
 
+	fmt.Printf("numNodes: %d\n", numNodes)
+	fmt.Printf("timestamps len: %d\n", len(timestamps))
+
 	medianTimestamp := timestamps[numNodes/2]
 	return medianTimestamp
 }
+
 /** FluxDbix ---End---- **/
 
 // GetBlock retrieves a block from the database by hash and number,
@@ -1404,6 +1406,7 @@ func (self *BlockChain) GetBlockHeadersFromHash(hash common.Hash, n int) (blockH
 	}
 	return
 }
+
 /** FluxDbix ---End---- **/
 
 // GetHeaderByNumber retrieves a block header from the database by number,
@@ -1422,4 +1425,5 @@ type BigIntSlice []*big.Int
 func (s BigIntSlice) Len() int           { return len(s) }
 func (s BigIntSlice) Less(i, j int) bool { return s[i].Cmp(s[j]) < 0 }
 func (s BigIntSlice) Swap(i, j int)      { s[i], s[j] = s[j], s[i] }
+
 /** FluxDbix ---End---- **/
