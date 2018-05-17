@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/swarm/api"
-	"github.com/dubaicoin-dbix/go-dubaicoin/swarm/storage"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/swarm/api"
+	"github.com/lofdev/go-dubaicoin/swarm/storage"
 )
 
 func TestBzzrGetPath(t *testing.T) {

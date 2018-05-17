@@ -22,13 +22,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/common/mclock"
-	"github.com/dubaicoin-dbix/go-dubaicoin/core"
-	"github.com/dubaicoin-dbix/go-dubaicoin/core/types"
-	"github.com/dubaicoin-dbix/go-dubaicoin/light"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/common/mclock"
+	"github.com/lofdev/go-dubaicoin/core"
+	"github.com/lofdev/go-dubaicoin/core/types"
+	"github.com/lofdev/go-dubaicoin/light"
+	"github.com/lofdev/go-dubaicoin/logger"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
 )
 
 const (

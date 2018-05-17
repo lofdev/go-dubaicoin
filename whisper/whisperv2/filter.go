@@ -21,7 +21,7 @@ package whisperv2
 import (
 	"crypto/ecdsa"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/event/filter"
+	"github.com/lofdev/go-dubaicoin/event/filter"
 )
 
 // Filter is used to subscribe to specific types of whisper messages.

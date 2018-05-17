@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/common"
 )
 
 var bigMaxUint64 = new(big.Int).SetUint64(^uint64(0))

@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/dubaicoin-dbix/go-dubaicoin/common"
+import "github.com/lofdev/go-dubaicoin/common"
 
 // Set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

@@ -20,9 +20,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
-	"github.com/dubaicoin-dbix/go-dubaicoin/swarm/storage"
+	"github.com/lofdev/go-dubaicoin/logger"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/swarm/storage"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 )

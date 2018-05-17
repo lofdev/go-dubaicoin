@@ -19,9 +19,9 @@ package types
 import (
 	"bytes"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rlp"
-	"github.com/dubaicoin-dbix/go-dubaicoin/trie"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/rlp"
+	"github.com/lofdev/go-dubaicoin/trie"
 )
 
 type DerivableList interface {

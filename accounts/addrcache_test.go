@@ -28,7 +28,7 @@ import (
 
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/common"
 )
 
 var (

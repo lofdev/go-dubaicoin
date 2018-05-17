@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/common/mclock"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/common/mclock"
 )
 
 func TestTopicRadius(t *testing.T) {

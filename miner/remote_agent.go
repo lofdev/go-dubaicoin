@@ -24,11 +24,11 @@ import (
 	"time"
 
 	"github.com/ethereum/ethash"
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/core/types"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
-	"github.com/dubaicoin-dbix/go-dubaicoin/pow"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/core/types"
+	"github.com/lofdev/go-dubaicoin/logger"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/pow"
 )
 
 type hashrate struct {

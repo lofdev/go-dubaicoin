@@ -22,9 +22,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rpc"
+	"github.com/lofdev/go-dubaicoin/logger"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/rpc"
 	"github.com/robertkrimen/otto"
 )
 

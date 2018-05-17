@@ -23,14 +23,14 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto"
-	"github.com/dubaicoin-dbix/go-dubaicoin/dbix"
-	"github.com/dubaicoin-dbix/go-dubaicoin/dbixdb"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
-	"github.com/dubaicoin-dbix/go-dubaicoin/node"
-	"github.com/dubaicoin-dbix/go-dubaicoin/params"
-	"github.com/dubaicoin-dbix/go-dubaicoin/tests"
-	whisper "github.com/dubaicoin-dbix/go-dubaicoin/whisper/whisperv2"
+	"github.com/lofdev/go-dubaicoin/crypto"
+	"github.com/lofdev/go-dubaicoin/dbix"
+	"github.com/lofdev/go-dubaicoin/dbixdb"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/node"
+	"github.com/lofdev/go-dubaicoin/params"
+	"github.com/lofdev/go-dubaicoin/tests"
+	whisper "github.com/lofdev/go-dubaicoin/whisper/whisperv2"
 )
 
 const defaultTestKey = "b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291"

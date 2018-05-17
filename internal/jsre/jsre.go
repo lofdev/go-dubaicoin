@@ -26,8 +26,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/internal/jsre/deps"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/internal/jsre/deps"
 	"github.com/robertkrimen/otto"
 )
 

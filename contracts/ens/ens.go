@@ -22,11 +22,11 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/accounts/abi/bind"
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/contracts/ens/contract"
-	"github.com/dubaicoin-dbix/go-dubaicoin/core/types"
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto"
+	"github.com/lofdev/go-dubaicoin/accounts/abi/bind"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/contracts/ens/contract"
+	"github.com/lofdev/go-dubaicoin/core/types"
+	"github.com/lofdev/go-dubaicoin/crypto"
 )
 
 // swarm domain name registry and resolver

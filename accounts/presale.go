@@ -25,7 +25,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto"
+	"github.com/lofdev/go-dubaicoin/crypto"
 	"github.com/pborman/uuid"
 	"golang.org/x/crypto/pbkdf2"
 )

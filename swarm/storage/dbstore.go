@@ -28,9 +28,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rlp"
+	"github.com/lofdev/go-dubaicoin/logger"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/rlp"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 )

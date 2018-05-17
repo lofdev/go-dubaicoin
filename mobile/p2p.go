@@ -21,7 +21,7 @@ package gdbix
 import (
 	"errors"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p"
+	"github.com/lofdev/go-dubaicoin/p2p"
 )
 
 // NodeInfo represents pi short summary of the information known about the host.

@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/common"
 )
 
 func newDb() *LDBDatabase {

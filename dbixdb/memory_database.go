@@ -20,7 +20,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/common"
 )
 
 /*

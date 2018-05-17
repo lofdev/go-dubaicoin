@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common/mclock"
+	"github.com/lofdev/go-dubaicoin/common/mclock"
 )
 
 const fcTimeConst = time.Millisecond

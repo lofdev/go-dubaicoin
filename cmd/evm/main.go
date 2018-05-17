@@ -24,14 +24,14 @@ import (
 	goruntime "runtime"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/cmd/utils"
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/core/state"
-	"github.com/dubaicoin-dbix/go-dubaicoin/core/vm"
-	"github.com/dubaicoin-dbix/go-dubaicoin/core/vm/runtime"
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto"
-	"github.com/dubaicoin-dbix/go-dubaicoin/dbixdb"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/cmd/utils"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/core/state"
+	"github.com/lofdev/go-dubaicoin/core/vm"
+	"github.com/lofdev/go-dubaicoin/core/vm/runtime"
+	"github.com/lofdev/go-dubaicoin/crypto"
+	"github.com/lofdev/go-dubaicoin/dbixdb"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
 	"gopkg.in/urfave/cli.v1"
 )
 

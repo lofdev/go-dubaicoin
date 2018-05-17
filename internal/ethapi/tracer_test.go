@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/core/vm"
-	"github.com/dubaicoin-dbix/go-dubaicoin/params"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/core/vm"
+	"github.com/lofdev/go-dubaicoin/params"
 )
 
 type account struct{}

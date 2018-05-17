@@ -19,11 +19,11 @@ package node
 import (
 	"reflect"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/accounts"
-	"github.com/dubaicoin-dbix/go-dubaicoin/dbixdb"
-	"github.com/dubaicoin-dbix/go-dubaicoin/event"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rpc"
+	"github.com/lofdev/go-dubaicoin/accounts"
+	"github.com/lofdev/go-dubaicoin/dbixdb"
+	"github.com/lofdev/go-dubaicoin/event"
+	"github.com/lofdev/go-dubaicoin/p2p"
+	"github.com/lofdev/go-dubaicoin/rpc"
 )
 
 // ServiceContext is a collection of service independent options inherited from

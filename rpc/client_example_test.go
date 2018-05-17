@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/rpc"
+	"github.com/lofdev/go-dubaicoin/rpc"
 	"golang.org/x/net/context"
 )
 

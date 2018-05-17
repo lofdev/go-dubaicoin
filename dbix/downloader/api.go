@@ -19,9 +19,9 @@ package downloader
 import (
 	"sync"
 
-	ethereum "github.com/dubaicoin-dbix/go-dubaicoin"
-	"github.com/dubaicoin-dbix/go-dubaicoin/event"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rpc"
+	ethereum "github.com/lofdev/go-dubaicoin"
+	"github.com/lofdev/go-dubaicoin/event"
+	"github.com/lofdev/go-dubaicoin/rpc"
 	"golang.org/x/net/context"
 )
 

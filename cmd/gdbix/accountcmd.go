@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/accounts"
-	"github.com/dubaicoin-dbix/go-dubaicoin/cmd/utils"
-	"github.com/dubaicoin-dbix/go-dubaicoin/console"
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/accounts"
+	"github.com/lofdev/go-dubaicoin/cmd/utils"
+	"github.com/lofdev/go-dubaicoin/console"
+	"github.com/lofdev/go-dubaicoin/crypto"
+	"github.com/lofdev/go-dubaicoin/logger"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
 	"gopkg.in/urfave/cli.v1"
 )
 

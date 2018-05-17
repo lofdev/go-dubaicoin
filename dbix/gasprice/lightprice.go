@@ -21,9 +21,9 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/internal/ethapi"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rpc"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/internal/ethapi"
+	"github.com/lofdev/go-dubaicoin/rpc"
 	"golang.org/x/net/context"
 )
 

@@ -36,15 +36,15 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/contracts/chequebook"
-	"github.com/dubaicoin-dbix/go-dubaicoin/errs"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p/discover"
-	bzzswap "github.com/dubaicoin-dbix/go-dubaicoin/swarm/services/swap"
-	"github.com/dubaicoin-dbix/go-dubaicoin/swarm/services/swap/swap"
-	"github.com/dubaicoin-dbix/go-dubaicoin/swarm/storage"
+	"github.com/lofdev/go-dubaicoin/contracts/chequebook"
+	"github.com/lofdev/go-dubaicoin/errs"
+	"github.com/lofdev/go-dubaicoin/logger"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/p2p"
+	"github.com/lofdev/go-dubaicoin/p2p/discover"
+	bzzswap "github.com/lofdev/go-dubaicoin/swarm/services/swap"
+	"github.com/lofdev/go-dubaicoin/swarm/services/swap/swap"
+	"github.com/lofdev/go-dubaicoin/swarm/storage"
 )
 
 const (

@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto"
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto/ecies"
+	"github.com/lofdev/go-dubaicoin/crypto"
+	"github.com/lofdev/go-dubaicoin/crypto/ecies"
 )
 
 func TestEnvelopeOpen(t *testing.T) {

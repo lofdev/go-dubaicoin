@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/rlp"
+	"github.com/lofdev/go-dubaicoin/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

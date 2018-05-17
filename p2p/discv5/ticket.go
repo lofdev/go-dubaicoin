@@ -25,9 +25,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/common/mclock"
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/common/mclock"
+	"github.com/lofdev/go-dubaicoin/crypto"
 )
 
 const (

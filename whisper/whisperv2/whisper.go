@@ -21,14 +21,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto"
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto/ecies"
-	"github.com/dubaicoin-dbix/go-dubaicoin/event/filter"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rpc"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/crypto"
+	"github.com/lofdev/go-dubaicoin/crypto/ecies"
+	"github.com/lofdev/go-dubaicoin/event/filter"
+	"github.com/lofdev/go-dubaicoin/logger"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/p2p"
+	"github.com/lofdev/go-dubaicoin/rpc"
 
 	"gopkg.in/fatih/set.v0"
 )

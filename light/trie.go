@@ -17,8 +17,8 @@
 package light
 
 import (
-	"github.com/dubaicoin-dbix/go-dubaicoin/dbixdb"
-	"github.com/dubaicoin-dbix/go-dubaicoin/trie"
+	"github.com/lofdev/go-dubaicoin/dbixdb"
+	"github.com/lofdev/go-dubaicoin/trie"
 	"golang.org/x/net/context"
 )
 

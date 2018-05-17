@@ -27,9 +27,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/internal/jsre"
-	"github.com/dubaicoin-dbix/go-dubaicoin/internal/web3ext"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rpc"
+	"github.com/lofdev/go-dubaicoin/internal/jsre"
+	"github.com/lofdev/go-dubaicoin/internal/web3ext"
+	"github.com/lofdev/go-dubaicoin/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 	"github.com/robertkrimen/otto"

@@ -22,7 +22,7 @@ package storage
 import (
 	"fmt"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/compression/rle"
+	"github.com/lofdev/go-dubaicoin/compression/rle"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 	"github.com/syndtr/goleveldb/leveldb/opt"

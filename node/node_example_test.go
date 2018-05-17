@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/node"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p/discover"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rpc"
+	"github.com/lofdev/go-dubaicoin/node"
+	"github.com/lofdev/go-dubaicoin/p2p"
+	"github.com/lofdev/go-dubaicoin/p2p/discover"
+	"github.com/lofdev/go-dubaicoin/rpc"
 )
 
 // SampleService is a trivial network service that can be attached to a node for

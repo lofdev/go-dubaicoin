@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/common"
 )
 
 // Topic represents a cryptographically secure, probabilistic partial

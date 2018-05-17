@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/rlp"
+	"github.com/lofdev/go-dubaicoin/rlp"
 )
 
 var (

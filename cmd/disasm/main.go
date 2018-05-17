@@ -24,7 +24,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/core/vm"
+	"github.com/lofdev/go-dubaicoin/core/vm"
 )
 
 func main() {

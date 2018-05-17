@@ -8,7 +8,7 @@ The common package contains the dubaicoin utility library.
 # Installation
 
 As a subdirectory the main go-ethereum repository, you get it with
-`go get github.com/dubaicoin-dbix/go-dubaicoin`.
+`go get github.com/lofdev/go-dubaicoin`.
 
 # Usage
 

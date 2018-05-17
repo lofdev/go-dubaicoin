@@ -26,14 +26,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common/mclock"
-	"github.com/dubaicoin-dbix/go-dubaicoin/dbixdb"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p/discover"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p/discv5"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rlp"
+	"github.com/lofdev/go-dubaicoin/common/mclock"
+	"github.com/lofdev/go-dubaicoin/dbixdb"
+	"github.com/lofdev/go-dubaicoin/logger"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/p2p"
+	"github.com/lofdev/go-dubaicoin/p2p/discover"
+	"github.com/lofdev/go-dubaicoin/p2p/discv5"
+	"github.com/lofdev/go-dubaicoin/rlp"
 )
 
 const (

@@ -19,8 +19,8 @@ package core
 import (
 	"runtime"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/core/types"
-	"github.com/dubaicoin-dbix/go-dubaicoin/pow"
+	"github.com/lofdev/go-dubaicoin/core/types"
+	"github.com/lofdev/go-dubaicoin/pow"
 )
 
 // nonceCheckResult contains the result of a nonce verification.

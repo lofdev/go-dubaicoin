@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/accounts/abi/bind"
-	"github.com/dubaicoin-dbix/go-dubaicoin/accounts/abi/bind/backends"
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/core"
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto"
+	"github.com/lofdev/go-dubaicoin/accounts/abi/bind"
+	"github.com/lofdev/go-dubaicoin/accounts/abi/bind/backends"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/core"
+	"github.com/lofdev/go-dubaicoin/crypto"
 )
 
 // setupReleaseTest creates a blockchain simulator and deploys a version oracle

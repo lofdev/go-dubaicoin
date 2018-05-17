@@ -26,14 +26,14 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/accounts"
-	"github.com/dubaicoin-dbix/go-dubaicoin/dbixdb"
-	"github.com/dubaicoin-dbix/go-dubaicoin/event"
-	"github.com/dubaicoin-dbix/go-dubaicoin/internal/debug"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rpc"
+	"github.com/lofdev/go-dubaicoin/accounts"
+	"github.com/lofdev/go-dubaicoin/dbixdb"
+	"github.com/lofdev/go-dubaicoin/event"
+	"github.com/lofdev/go-dubaicoin/internal/debug"
+	"github.com/lofdev/go-dubaicoin/logger"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/p2p"
+	"github.com/lofdev/go-dubaicoin/rpc"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 )
 

@@ -19,8 +19,8 @@ package miner
 import (
 	"testing"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/core/types"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/core/types"
 )
 
 // noopHeaderRetriever is an implementation of headerRetriever that always

@@ -23,11 +23,11 @@ import (
 	"io"
 	"runtime"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/core/types"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
-	"github.com/dubaicoin-dbix/go-dubaicoin/params"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rlp"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/core/types"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/params"
+	"github.com/lofdev/go-dubaicoin/rlp"
 )
 
 // Transaction Test JSON Format

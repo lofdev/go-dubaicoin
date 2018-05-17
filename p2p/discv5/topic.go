@@ -23,7 +23,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common/mclock"
+	"github.com/lofdev/go-dubaicoin/common/mclock"
 )
 
 const (

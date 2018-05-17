@@ -28,8 +28,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/params"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rpc"
+	"github.com/lofdev/go-dubaicoin/params"
+	"github.com/lofdev/go-dubaicoin/rpc"
 )
 
 // Tests that a node embedded within a console can be started up properly and

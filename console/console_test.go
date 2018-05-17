@@ -27,11 +27,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/dbix"
-	"github.com/dubaicoin-dbix/go-dubaicoin/internal/jsre"
-	"github.com/dubaicoin-dbix/go-dubaicoin/node"
-	"github.com/dubaicoin-dbix/go-dubaicoin/params"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/dbix"
+	"github.com/lofdev/go-dubaicoin/internal/jsre"
+	"github.com/lofdev/go-dubaicoin/node"
+	"github.com/lofdev/go-dubaicoin/params"
 )
 
 const (

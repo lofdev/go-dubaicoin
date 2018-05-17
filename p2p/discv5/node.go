@@ -30,8 +30,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/crypto"
 )
 
 // Node represents a host on the network.

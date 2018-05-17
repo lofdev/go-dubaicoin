@@ -19,8 +19,8 @@ package pow
 import (
 	"math/big"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/core/types"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/core/types"
 )
 
 type Block interface {

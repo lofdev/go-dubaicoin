@@ -19,9 +19,9 @@
 package gdbix
 
 import (
-	"github.com/dubaicoin-dbix/go-dubaicoin/core"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p/discv5"
-	"github.com/dubaicoin-dbix/go-dubaicoin/params"
+	"github.com/lofdev/go-dubaicoin/core"
+	"github.com/lofdev/go-dubaicoin/p2p/discv5"
+	"github.com/lofdev/go-dubaicoin/params"
 )
 
 // MainnetChainConfig returns the chain configurations for the main Ethereum network.

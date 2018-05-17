@@ -24,7 +24,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto"
+	"github.com/lofdev/go-dubaicoin/crypto"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

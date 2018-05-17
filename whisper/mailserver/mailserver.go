@@ -20,12 +20,12 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/cmd/utils"
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rlp"
-	whisper "github.com/dubaicoin-dbix/go-dubaicoin/whisper/whisperv5"
+	"github.com/lofdev/go-dubaicoin/cmd/utils"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/logger"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/rlp"
+	whisper "github.com/lofdev/go-dubaicoin/whisper/whisperv5"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/util"
 )

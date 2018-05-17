@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/dubaicoin-dbix/go-dubaicoin/metrics"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p"
+	"github.com/lofdev/go-dubaicoin/metrics"
+	"github.com/lofdev/go-dubaicoin/p2p"
 )
 
 var (

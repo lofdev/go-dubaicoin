@@ -19,7 +19,7 @@ package math
 import (
 	"math/big"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/common"
 )
 
 // wordSize is the size number of bits in a big.Int Word.

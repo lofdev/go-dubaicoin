@@ -19,7 +19,7 @@ package abi
 import (
 	"reflect"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/common"
 )
 
 // packBytesSlice packs the given bytes as [L, V] as the canonical representation

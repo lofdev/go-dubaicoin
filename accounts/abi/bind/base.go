@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin"
-	"github.com/dubaicoin-dbix/go-dubaicoin/accounts/abi"
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/core/types"
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto"
+	"github.com/lofdev/go-dubaicoin"
+	"github.com/lofdev/go-dubaicoin/accounts/abi"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/core/types"
+	"github.com/lofdev/go-dubaicoin/crypto"
 	"golang.org/x/net/context"
 )
 

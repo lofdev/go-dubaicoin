@@ -22,7 +22,7 @@ import (
 	"math/rand"
 	"reflect"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common/hexutil"
+	"github.com/lofdev/go-dubaicoin/common/hexutil"
 )
 
 const (

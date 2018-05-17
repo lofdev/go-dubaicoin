@@ -122,7 +122,7 @@ var severityName = []string{
 // these path prefixes are trimmed for display, but not when
 // matching vmodule filters.
 var trimPrefixes = []string{
-	"/github.com/dubaicoin-dbix/go-dubaicoin",
+	"/github.com/lofdev/go-dubaicoin",
 	"/github.com/ethereum/ethash",
 }
 

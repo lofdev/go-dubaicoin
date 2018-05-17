@@ -26,9 +26,9 @@ import (
 	"strings"
 
 	"github.com/ethereum/ethash"
-	"github.com/dubaicoin-dbix/go-dubaicoin/cmd/utils"
-	"github.com/dubaicoin-dbix/go-dubaicoin/dbix"
-	"github.com/dubaicoin-dbix/go-dubaicoin/params"
+	"github.com/lofdev/go-dubaicoin/cmd/utils"
+	"github.com/lofdev/go-dubaicoin/dbix"
+	"github.com/lofdev/go-dubaicoin/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

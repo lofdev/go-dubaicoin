@@ -16,7 +16,7 @@
 
 package ethclient
 
-import "github.com/dubaicoin-dbix/go-dubaicoin"
+import "github.com/lofdev/go-dubaicoin"
 
 // Verify that Client implements the dubaicoin interfaces.
 var (

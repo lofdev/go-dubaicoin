@@ -21,8 +21,8 @@ package main
 import (
 	"io"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/cmd/utils"
-	"github.com/dubaicoin-dbix/go-dubaicoin/internal/debug"
+	"github.com/lofdev/go-dubaicoin/cmd/utils"
+	"github.com/lofdev/go-dubaicoin/internal/debug"
 	"gopkg.in/urfave/cli.v1"
 )
 

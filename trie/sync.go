@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/common"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

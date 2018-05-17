@@ -24,15 +24,15 @@ import (
 	"math/big"
 	"path/filepath"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/dbix"
-	"github.com/dubaicoin-dbix/go-dubaicoin/dbixclient"
-	"github.com/dubaicoin-dbix/go-dubaicoin/dbixstats"
-	"github.com/dubaicoin-dbix/go-dubaicoin/les"
-	"github.com/dubaicoin-dbix/go-dubaicoin/node"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p/nat"
-	"github.com/dubaicoin-dbix/go-dubaicoin/params"
-	"github.com/dubaicoin-dbix/go-dubaicoin/whisper/whisperv2"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/dbix"
+	"github.com/lofdev/go-dubaicoin/dbixclient"
+	"github.com/lofdev/go-dubaicoin/dbixstats"
+	"github.com/lofdev/go-dubaicoin/les"
+	"github.com/lofdev/go-dubaicoin/node"
+	"github.com/lofdev/go-dubaicoin/p2p/nat"
+	"github.com/lofdev/go-dubaicoin/params"
+	"github.com/lofdev/go-dubaicoin/whisper/whisperv2"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Gdbix

@@ -24,7 +24,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/common"
 )
 
 // The ABI holds information about a contract's context and available

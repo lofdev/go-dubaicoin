@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/common/hexutil"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rlp"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/common/hexutil"
+	"github.com/lofdev/go-dubaicoin/rlp"
 )
 
 var errMissingLogFields = errors.New("missing required JSON log fields")

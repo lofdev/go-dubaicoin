@@ -17,7 +17,7 @@
 package api
 
 import (
-	"github.com/dubaicoin-dbix/go-dubaicoin/swarm/network"
+	"github.com/lofdev/go-dubaicoin/swarm/network"
 )
 
 type Control struct {

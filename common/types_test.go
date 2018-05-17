@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common/hexutil"
+	"github.com/lofdev/go-dubaicoin/common/hexutil"
 )
 
 func TestBytesConversion(t *testing.T) {

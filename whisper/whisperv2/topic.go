@@ -19,7 +19,7 @@
 
 package whisperv2
 
-import "github.com/dubaicoin-dbix/go-dubaicoin/crypto"
+import "github.com/lofdev/go-dubaicoin/crypto"
 
 // Topic represents a cryptographically secure, probabilistic partial
 // classifications of a message, determined as the first (left) 4 bytes of the

@@ -22,13 +22,13 @@ import (
 	"fmt"
 	mathrand "math/rand"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/common/hexutil"
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rpc"
-	"github.com/dubaicoin-dbix/go-dubaicoin/whisper/whisperv5"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/common/hexutil"
+	"github.com/lofdev/go-dubaicoin/crypto"
+	"github.com/lofdev/go-dubaicoin/logger"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/rpc"
+	"github.com/lofdev/go-dubaicoin/whisper/whisperv5"
 )
 
 var whisperOffLineErr = errors.New("whisper is offline")

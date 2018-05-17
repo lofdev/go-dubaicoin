@@ -23,7 +23,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/swarm/storage"
+	"github.com/lofdev/go-dubaicoin/swarm/storage"
 )
 
 func manifest(paths ...string) (manifestReader storage.LazySectionReader) {

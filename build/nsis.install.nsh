@@ -3,9 +3,9 @@ InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
 # Links for "Add/Remove Programs"
-!define HELPURL "https://github.com/dubaicoin-dbix/go-dubaicoin/issues"
-!define UPDATEURL "https://github.com/dubaicoin-dbix/go-dubaicoin/releases"
-!define ABOUTURL "https://github.com/dubaicoin-dbix/go-dubaicoin#ethereum-go"
+!define HELPURL "https://github.com/lofdev/go-dubaicoin/issues"
+!define UPDATEURL "https://github.com/lofdev/go-dubaicoin/releases"
+!define ABOUTURL "https://github.com/lofdev/go-dubaicoin#ethereum-go"
 !define /date NOW "%Y%m%d"
 
 PageEx license

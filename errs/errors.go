@@ -19,7 +19,7 @@ package errs
 import (
 	"fmt"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
 )
 
 /*

@@ -29,7 +29,7 @@ import (
 	"net"
 	"sort"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/common"
 )
 
 const (

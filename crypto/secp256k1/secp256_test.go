@@ -24,7 +24,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto/randentropy"
+	"github.com/lofdev/go-dubaicoin/crypto/randentropy"
 )
 
 const TestCount = 1000

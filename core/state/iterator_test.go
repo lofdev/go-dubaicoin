@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/dbixdb"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/dbixdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

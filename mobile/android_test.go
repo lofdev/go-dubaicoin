@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/internal/build"
+	"github.com/lofdev/go-dubaicoin/internal/build"
 )
 
 // androidTestClass is a Java class to do some lightweight tests against the Android
@@ -169,7 +169,7 @@ func TestAndroid(t *testing.T) {
 		}
 	}
 	// Generate the mobile bindings for Gdbix and add the tester class
-	gobind := exec.Command("gomobile", "bind", "-javapkg", "org.dubaicoin", "github.com/dubaicoin-dbix/go-dubaicoin/mobile")
+	gobind := exec.Command("gomobile", "bind", "-javapkg", "org.dubaicoin", "github.com/lofdev/go-dubaicoin/mobile")
 	if output, err := gobind.CombinedOutput(); err != nil {
 		t.Logf("%s", output)
 		t.Fatalf("failed to run gomobile bind: %v", err)

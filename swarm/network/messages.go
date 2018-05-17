@@ -21,11 +21,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/contracts/chequebook"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p/discover"
-	"github.com/dubaicoin-dbix/go-dubaicoin/swarm/network/kademlia"
-	"github.com/dubaicoin-dbix/go-dubaicoin/swarm/services/swap"
-	"github.com/dubaicoin-dbix/go-dubaicoin/swarm/storage"
+	"github.com/lofdev/go-dubaicoin/contracts/chequebook"
+	"github.com/lofdev/go-dubaicoin/p2p/discover"
+	"github.com/lofdev/go-dubaicoin/swarm/network/kademlia"
+	"github.com/lofdev/go-dubaicoin/swarm/services/swap"
+	"github.com/lofdev/go-dubaicoin/swarm/storage"
 )
 
 /*

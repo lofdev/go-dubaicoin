@@ -19,8 +19,8 @@ package state
 import (
 	"testing"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/dbixdb"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/dbixdb"
 )
 
 var addr = common.BytesToAddress([]byte("test"))

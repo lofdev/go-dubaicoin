@@ -23,8 +23,8 @@ import (
 
 	"encoding/json"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/whisper/whisperv5"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/whisper/whisperv5"
 )
 
 func TestBasic(t *testing.T) {

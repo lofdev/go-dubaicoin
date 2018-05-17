@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/common"
 )
 
 func TestSet(t *testing.T) {

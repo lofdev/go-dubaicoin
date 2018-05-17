@@ -20,18 +20,18 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/logger"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
 )
 
 /*
 http roundtripper to register for bzz url scheme
-see https://github.com/dubaicoin-dbix/go-dubaicoin/issues/2040
+see https://github.com/lofdev/go-dubaicoin/issues/2040
 Usage:
 
 import (
- "github.com/dubaicoin-dbix/go-dubaicoin/common/httpclient"
- "github.com/dubaicoin-dbix/go-dubaicoin/swarm/api/http"
+ "github.com/lofdev/go-dubaicoin/common/httpclient"
+ "github.com/lofdev/go-dubaicoin/swarm/api/http"
 )
 client := httpclient.New()
 // for (private) swarm proxy running locally

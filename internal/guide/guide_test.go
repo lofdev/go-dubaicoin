@@ -29,8 +29,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/accounts"
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/accounts"
+	"github.com/lofdev/go-dubaicoin/common"
 )
 
 // Tests that the account management snippets work correctly.

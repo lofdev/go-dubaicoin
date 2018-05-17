@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto"
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto/sha3"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p/discover"
+	"github.com/lofdev/go-dubaicoin/crypto"
+	"github.com/lofdev/go-dubaicoin/crypto/sha3"
+	"github.com/lofdev/go-dubaicoin/p2p/discover"
 )
 
 func init() {

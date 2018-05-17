@@ -2,7 +2,7 @@ FROM alpine:3.5
 
 RUN \
   apk add --update go git make gcc musl-dev ca-certificates && \
-  git clone --depth 1 --branch release/1.5 https://github.com/dubaicoin-dbix/go-dubaicoin && \
+  git clone --depth 1 --branch release/1.5 https://github.com/lofdev/go-dubaicoin && \
   (cd go-ethereum && make gdbix) && \
   cp go-ethereum/build/bin/gdbix /gdbix && \
   apk del go git make gcc musl-dev && \

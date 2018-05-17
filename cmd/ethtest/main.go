@@ -25,9 +25,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
-	"github.com/dubaicoin-dbix/go-dubaicoin/params"
-	"github.com/dubaicoin-dbix/go-dubaicoin/tests"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/params"
+	"github.com/lofdev/go-dubaicoin/tests"
 	"gopkg.in/urfave/cli.v1"
 )
 

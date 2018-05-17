@@ -21,10 +21,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common/hexutil"
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p/discover"
+	"github.com/lofdev/go-dubaicoin/common/hexutil"
+	"github.com/lofdev/go-dubaicoin/crypto"
+	"github.com/lofdev/go-dubaicoin/p2p"
+	"github.com/lofdev/go-dubaicoin/p2p/discover"
 	"github.com/rcrowley/go-metrics"
 )
 

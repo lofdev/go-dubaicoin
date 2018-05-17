@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/core/vm"
-	"github.com/dubaicoin-dbix/go-dubaicoin/dbixdb"
-	"github.com/dubaicoin-dbix/go-dubaicoin/event"
-	"github.com/dubaicoin-dbix/go-dubaicoin/params"
+	"github.com/lofdev/go-dubaicoin/core/vm"
+	"github.com/lofdev/go-dubaicoin/dbixdb"
+	"github.com/lofdev/go-dubaicoin/event"
+	"github.com/lofdev/go-dubaicoin/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

@@ -24,10 +24,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p/discover"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p/netutil"
+	"github.com/lofdev/go-dubaicoin/logger"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/p2p/discover"
+	"github.com/lofdev/go-dubaicoin/p2p/netutil"
 )
 
 const (

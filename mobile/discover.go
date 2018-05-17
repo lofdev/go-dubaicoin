@@ -22,7 +22,7 @@ package gdbix
 import (
 	"errors"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p/discv5"
+	"github.com/lofdev/go-dubaicoin/p2p/discv5"
 )
 
 // Enode represents a host on the network.

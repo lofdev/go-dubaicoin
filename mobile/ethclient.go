@@ -21,8 +21,8 @@ package gdbix
 import (
 	"math/big"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/core/types"
-	"github.com/dubaicoin-dbix/go-dubaicoin/dbixclient"
+	"github.com/lofdev/go-dubaicoin/core/types"
+	"github.com/lofdev/go-dubaicoin/dbixclient"
 )
 
 // EthereumClient provides access to the Dubaicoin APIs.

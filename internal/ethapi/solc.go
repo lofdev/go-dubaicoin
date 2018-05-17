@@ -19,8 +19,8 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common/compiler"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rpc"
+	"github.com/lofdev/go-dubaicoin/common/compiler"
+	"github.com/lofdev/go-dubaicoin/rpc"
 )
 
 func makeCompilerAPIs(solcPath string) []rpc.API {

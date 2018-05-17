@@ -54,7 +54,7 @@ func TestBloom(t *testing.T) {
 import (
 	"testing"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/core/state"
+	"github.com/lofdev/go-dubaicoin/core/state"
 )
 
 func TestBloom9(t *testing.T) {

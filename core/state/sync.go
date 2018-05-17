@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"math/big"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rlp"
-	"github.com/dubaicoin-dbix/go-dubaicoin/trie"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/rlp"
+	"github.com/lofdev/go-dubaicoin/trie"
 )
 
 // StateSync is the main state synchronisation scheduler, which provides yet the

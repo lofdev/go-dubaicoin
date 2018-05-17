@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto"
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto/secp256k1"
+	"github.com/lofdev/go-dubaicoin/crypto"
+	"github.com/lofdev/go-dubaicoin/crypto/secp256k1"
 )
 
 // Tests whether a message can be wrapped without any identity or encryption.

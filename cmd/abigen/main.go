@@ -24,8 +24,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/accounts/abi/bind"
-	"github.com/dubaicoin-dbix/go-dubaicoin/common/compiler"
+	"github.com/lofdev/go-dubaicoin/accounts/abi/bind"
+	"github.com/lofdev/go-dubaicoin/common/compiler"
 )
 
 var (

@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/accounts/abi"
-	"github.com/dubaicoin-dbix/go-dubaicoin/accounts/abi/bind"
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/core/types"
+	"github.com/lofdev/go-dubaicoin/accounts/abi"
+	"github.com/lofdev/go-dubaicoin/accounts/abi/bind"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/core/types"
 )
 
 // Signer is an interaface defining the callback when a contract requires a

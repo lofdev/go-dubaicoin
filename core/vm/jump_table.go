@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/params"
+	"github.com/lofdev/go-dubaicoin/params"
 )
 
 type (

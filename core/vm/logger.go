@@ -22,7 +22,7 @@ import (
 	"os"
 	"unicode"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/common"
 )
 
 type Storage map[common.Hash]common.Hash

@@ -22,7 +22,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/core/types"
+	"github.com/lofdev/go-dubaicoin/core/types"
 )
 
 // A Nonce is a 64-bit hash which proves (combined with the mix-hash) that

@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/dbixdb"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/dbixdb"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

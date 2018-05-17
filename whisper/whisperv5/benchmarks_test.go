@@ -19,7 +19,7 @@ package whisperv5
 import (
 	"testing"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto"
+	"github.com/lofdev/go-dubaicoin/crypto"
 )
 
 func BenchmarkDeriveKeyMaterial(b *testing.B) {

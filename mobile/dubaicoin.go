@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	ethereum "github.com/dubaicoin-dbix/go-dubaicoin"
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
+	ethereum "github.com/lofdev/go-dubaicoin"
+	"github.com/lofdev/go-dubaicoin/common"
 )
 
 // Subscription represents an event subscription where events are

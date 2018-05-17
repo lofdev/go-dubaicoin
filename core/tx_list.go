@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/core/types"
+	"github.com/lofdev/go-dubaicoin/core/types"
 )
 
 // nonceHeap is a heap.Interface implementation over 64bit unsigned integers for

@@ -20,8 +20,8 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/params"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/params"
 )
 
 // Type is the VM type accepted by **NewVm**

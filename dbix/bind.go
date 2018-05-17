@@ -19,13 +19,13 @@ package eth
 import (
 	"math/big"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin"
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/common/hexutil"
-	"github.com/dubaicoin-dbix/go-dubaicoin/core/types"
-	"github.com/dubaicoin-dbix/go-dubaicoin/internal/ethapi"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rlp"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rpc"
+	"github.com/lofdev/go-dubaicoin"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/common/hexutil"
+	"github.com/lofdev/go-dubaicoin/core/types"
+	"github.com/lofdev/go-dubaicoin/internal/ethapi"
+	"github.com/lofdev/go-dubaicoin/rlp"
+	"github.com/lofdev/go-dubaicoin/rpc"
 	"golang.org/x/net/context"
 )
 

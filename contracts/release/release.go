@@ -24,16 +24,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/accounts/abi/bind"
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/dbix"
-	"github.com/dubaicoin-dbix/go-dubaicoin/internal/ethapi"
-	"github.com/dubaicoin-dbix/go-dubaicoin/les"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
-	"github.com/dubaicoin-dbix/go-dubaicoin/node"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rpc"
+	"github.com/lofdev/go-dubaicoin/accounts/abi/bind"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/dbix"
+	"github.com/lofdev/go-dubaicoin/internal/ethapi"
+	"github.com/lofdev/go-dubaicoin/les"
+	"github.com/lofdev/go-dubaicoin/logger"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/node"
+	"github.com/lofdev/go-dubaicoin/p2p"
+	"github.com/lofdev/go-dubaicoin/rpc"
 	"golang.org/x/net/context"
 )
 
@@ -141,7 +141,7 @@ func (r *ReleaseService) checker() {
 
 				warning := fmt.Sprintf("Client v%d.%d.%d-%x seems older than the latest upstream release v%d.%d.%d-%x",
 					r.config.Major, r.config.Minor, r.config.Patch, r.config.Commit[:4], version.Major, version.Minor, version.Patch, version.Commit[:4])
-				howtofix := fmt.Sprintf("Please check https://github.com/dubaicoin-dbix/go-dubaicoin/releases for new releases")
+				howtofix := fmt.Sprintf("Please check https://github.com/lofdev/go-dubaicoin/releases for new releases")
 				separator := strings.Repeat("-", len(warning))
 
 				glog.V(logger.Warn).Info(separator)

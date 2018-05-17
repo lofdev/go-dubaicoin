@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rpc"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

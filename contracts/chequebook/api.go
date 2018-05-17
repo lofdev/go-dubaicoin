@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/common"
 )
 
 const Version = "1.0"

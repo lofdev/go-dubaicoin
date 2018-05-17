@@ -24,11 +24,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto"
-	"github.com/dubaicoin-dbix/go-dubaicoin/swarm/network"
-	"github.com/dubaicoin-dbix/go-dubaicoin/swarm/services/swap"
-	"github.com/dubaicoin-dbix/go-dubaicoin/swarm/storage"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/crypto"
+	"github.com/lofdev/go-dubaicoin/swarm/network"
+	"github.com/lofdev/go-dubaicoin/swarm/services/swap"
+	"github.com/lofdev/go-dubaicoin/swarm/storage"
 )
 
 const (

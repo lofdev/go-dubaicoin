@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/dubaicoin-dbix/go-dubaicoin/accounts/abi"
+import "github.com/lofdev/go-dubaicoin/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {

@@ -16,7 +16,7 @@
 
 package trie
 
-import "github.com/dubaicoin-dbix/go-dubaicoin/common"
+import "github.com/lofdev/go-dubaicoin/common"
 
 // Iterator is a key-value trie iterator that traverses a Trie.
 type Iterator struct {

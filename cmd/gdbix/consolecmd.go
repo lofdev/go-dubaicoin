@@ -21,10 +21,10 @@ import (
 	"os/signal"
 	"strings"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/cmd/utils"
-	"github.com/dubaicoin-dbix/go-dubaicoin/console"
-	"github.com/dubaicoin-dbix/go-dubaicoin/node"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rpc"
+	"github.com/lofdev/go-dubaicoin/cmd/utils"
+	"github.com/lofdev/go-dubaicoin/console"
+	"github.com/lofdev/go-dubaicoin/node"
+	"github.com/lofdev/go-dubaicoin/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 
@@ -38,7 +38,7 @@ var (
 		Description: `
 The Gdbix console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://github.com/dubaicoin-dbix/go-dubaicoin/wiki/Javascipt-Console
+See https://github.com/lofdev/go-dubaicoin/wiki/Javascipt-Console
 `,
 	}
 	attachCommand = cli.Command{
@@ -50,7 +50,7 @@ See https://github.com/dubaicoin-dbix/go-dubaicoin/wiki/Javascipt-Console
 		Description: `
 The Gdbix console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://github.com/dubaicoin-dbix/go-dubaicoin/wiki/Javascipt-Console.
+See https://github.com/lofdev/go-dubaicoin/wiki/Javascipt-Console.
 This command allows to open a console on a running gdbix node.
 `,
 	}
@@ -62,7 +62,7 @@ This command allows to open a console on a running gdbix node.
 		Category:  "CONSOLE COMMANDS",
 		Description: `
 The JavaScript VM exposes a node admin interface as well as the Ðapp
-JavaScript API. See https://github.com/dubaicoin-dbix/go-dubaicoin/wiki/Javascipt-Console
+JavaScript API. See https://github.com/lofdev/go-dubaicoin/wiki/Javascipt-Console
 `,
 	}
 )

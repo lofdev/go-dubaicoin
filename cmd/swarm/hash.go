@@ -22,7 +22,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/swarm/storage"
+	"github.com/lofdev/go-dubaicoin/swarm/storage"
 	"gopkg.in/urfave/cli.v1"
 )
 

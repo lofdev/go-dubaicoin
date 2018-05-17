@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto/secp256k1"
+	"github.com/lofdev/go-dubaicoin/crypto/secp256k1"
 )
 
 var (

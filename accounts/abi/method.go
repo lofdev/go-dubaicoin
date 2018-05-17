@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto"
+	"github.com/lofdev/go-dubaicoin/crypto"
 )
 
 // Callable method given a `Name` and whether the method is a constant.

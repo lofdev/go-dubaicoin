@@ -25,12 +25,12 @@ import (
 	"net"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p/nat"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p/netutil"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rlp"
+	"github.com/lofdev/go-dubaicoin/crypto"
+	"github.com/lofdev/go-dubaicoin/logger"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/p2p/nat"
+	"github.com/lofdev/go-dubaicoin/p2p/netutil"
+	"github.com/lofdev/go-dubaicoin/rlp"
 )
 
 const Version = 4

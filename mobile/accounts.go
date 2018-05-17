@@ -23,7 +23,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/accounts"
+	"github.com/lofdev/go-dubaicoin/accounts"
 )
 
 const (

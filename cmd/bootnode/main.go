@@ -23,13 +23,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/cmd/utils"
-	"github.com/dubaicoin-dbix/go-dubaicoin/crypto"
-	"github.com/dubaicoin-dbix/go-dubaicoin/logger/glog"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p/discover"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p/discv5"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p/nat"
-	"github.com/dubaicoin-dbix/go-dubaicoin/p2p/netutil"
+	"github.com/lofdev/go-dubaicoin/cmd/utils"
+	"github.com/lofdev/go-dubaicoin/crypto"
+	"github.com/lofdev/go-dubaicoin/logger/glog"
+	"github.com/lofdev/go-dubaicoin/p2p/discover"
+	"github.com/lofdev/go-dubaicoin/p2p/discv5"
+	"github.com/lofdev/go-dubaicoin/p2p/nat"
+	"github.com/lofdev/go-dubaicoin/p2p/netutil"
 )
 
 func main() {

@@ -23,8 +23,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/common"
-	"github.com/dubaicoin-dbix/go-dubaicoin/rlp"
+	"github.com/lofdev/go-dubaicoin/common"
+	"github.com/lofdev/go-dubaicoin/rlp"
 )
 
 // from bcValidBlockTest.json, "SimpleTx"

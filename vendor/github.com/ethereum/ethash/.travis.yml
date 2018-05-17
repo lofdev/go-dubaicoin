@@ -9,9 +9,9 @@ before_install:
   # Set up go-ethereum
   - sudo apt-get update -y -qq
   - sudo apt-get install -yqq libgmp3-dev 
-  - git clone --depth=10 https://github.com/dubaicoin-dbix/go-dubaicoin ${GOPATH}/src/github.com/dubaicoin-dbix/go-dubaicoin
+  - git clone --depth=10 https://github.com/lofdev/go-dubaicoin ${GOPATH}/src/github.com/lofdev/go-dubaicoin
   # use canned dependencies from the go-ethereum repository
-  - export GOPATH=$GOPATH:$GOPATH/src/github.com/dubaicoin-dbix/go-dubaicoin/Godeps/_workspace/
+  - export GOPATH=$GOPATH:$GOPATH/src/github.com/lofdev/go-dubaicoin/Godeps/_workspace/
   - echo $GOPATH
 
 install:

@@ -3,7 +3,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/params"
+	"github.com/lofdev/go-dubaicoin/params"
 )
 
 func makeStackFunc(pop, push int) stackValidationFunc {

@@ -1,5 +1,5 @@
 language: go
-go_import_path: github.com/dubaicoin-dbix/go-dubaicoin
+go_import_path: github.com/lofdev/go-dubaicoin
 sudo: false
 matrix:
   include:

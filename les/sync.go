@@ -19,9 +19,9 @@ package les
 import (
 	"time"
 
-	"github.com/dubaicoin-dbix/go-dubaicoin/core"
-	"github.com/dubaicoin-dbix/go-dubaicoin/dbix/downloader"
-	"github.com/dubaicoin-dbix/go-dubaicoin/light"
+	"github.com/lofdev/go-dubaicoin/core"
+	"github.com/lofdev/go-dubaicoin/dbix/downloader"
+	"github.com/lofdev/go-dubaicoin/light"
 	"golang.org/x/net/context"
 )
 
